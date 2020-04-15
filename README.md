@@ -1,30 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# Next.js Workshop!
 
-## Getting Started
+## Table of contents:
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Introduce Next.js (what is it, what values it provides)
+- Explain Next.js' Router (pages/ or src/pages)
+- Explain and Demo Dynamic Routing
+- Showcase automatic prefetching for fast performance (and how to disable for seldom-visited pages)
+- Introduce API Routes, showcase hot reloading
+- Introduce TypeScript Support
+- Fetching Data in your Pages (with shared API type shapes )
+  - getInitialProps
+  - getStaticProps (new revalidate RFC)
+  - getStaticPaths (fallback: true/false)
+  - getServerProps
+  - React Hooks
+  - Explain the benefits/drawbacks of both
+- Heavy CMS or Static content example
+  - Demonstrate Notion blog example
+- Showcase AMP support
+- Showcase client-side only rendering technique
+- Show how to leverage Next.js' built-in CSS/SCSS support
+  - Explain the benefits and improvements we have made with the built-in support
