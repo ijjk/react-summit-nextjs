@@ -4,6 +4,6 @@ export default () => {
   const { query } = useRouter()
 
   return (
-    <p>Movie id: {query.path?.join('/')}</p>
+    <p>Movie id: {(query.path as string[])?.join('/')}</p>
   )
 }
