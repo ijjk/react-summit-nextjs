@@ -10,7 +10,7 @@
 - Showcase automatic prefetching for fast performance (and how to disable for seldom-visited pages)
 - Introduce API Routes, showcase hot reloading
 - Introduce TypeScript Support (built-in types, jsconfig/tsconfig paths support, build time checking)
-- Fetching Data in your Pages (with shared API type shapes )
+- Fetching Data in your Pages (with shared API type shapes)
   - getStaticProps (new revalidate RFC)
   - getStaticPaths (fallback: true/false)
   - getServerProps
@@ -23,6 +23,7 @@
 - Discuss bundling the optimizations we've done, how granular chunking works (sneak peak at modern mode)
 - Heavy CMS or Static content example
   - Demonstrate blog-starter (markdown)
+  - Prismic example preview mode
   - Demonstrate Notion blog example
 - Deploying Next.js applications
 - Sneak peak into upcoming custom routes support
