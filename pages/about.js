@@ -3,9 +3,9 @@ import Link from 'next/link'
 export default () => {
   return (
     <>
-      <p>Index Page</p>
-      <Link href='/about'>
-        <a>To /about</a>
+      <p>About Page</p>
+      <Link href='/'>
+        <a>To /</a>
       </Link>
     </>
   )
