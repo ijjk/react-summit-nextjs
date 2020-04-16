@@ -11,13 +11,13 @@
 - Introduce API Routes, showcase hot reloading
 - Introduce TypeScript Support
 - Fetching Data in your Pages (with shared API type shapes )
-  - getInitialProps
   - getStaticProps (new revalidate RFC)
   - getStaticPaths (fallback: true/false)
   - getServerProps
   - React Hooks
   - Explain the benefits/drawbacks of both
 - Heavy CMS or Static content example
+  - Demonstrate blog-starter (markdown)
   - Demonstrate Notion blog example
 - Showcase AMP support
 - Showcase client-side only rendering technique
